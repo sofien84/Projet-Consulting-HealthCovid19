@@ -1,0 +1,48 @@
+.AdmincardContainer{
+
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25),
+    10px 10px 10px rgba(179, 182, 28, 0.22);
+  background: rgb(230, 160, 233);
+  border-radius: 10px;
+  display: inline-block;
+  height: 380px;
+  margin: 15px 45px 15px 45px;
+  text-align: center;
+  font-size: calc(8px + 2vmin);
+  width: 300px;
+  padding: 25px 25px 25px 25px;
+
+    /* display: flex;
+    flex-direction: column;
+    box-Shadow: 0 3px 6px rgba(139, 99, 99, 0.16), 0 3px 6px rgba(0,0,0,0.23);
+    Width: 40%;
+    margin: 2vw;
+    background-color: rgb(229, 220, 238);
+    flex-wrap: wrap;
+    width: 50%;
+    height:50%;
+    font-size: 18px; */
+
+    
+    
+
+    
+}
+.infoContainer{
+    display: flex;
+}
+/* .AdminInfo{
+    margin: 5px;
+}
+.AdminInfo h1{
+    font-size: 19px;
+    text-align: center;
+    
+} */
+
+
+.AdminButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

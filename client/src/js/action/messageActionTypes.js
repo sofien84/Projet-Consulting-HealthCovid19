@@ -1,0 +1,5 @@
+export const POST_MESSAGE = "POST_MESSAGE" 
+export const GET_MESSAGE = "GET_MESSAGE"
+export const SETLOADING = "SETLOADING"
+export const MESSAGE_ERROR = "MESSAGE_ERROR"
+

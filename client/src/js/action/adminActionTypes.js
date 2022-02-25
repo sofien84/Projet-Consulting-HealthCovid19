@@ -1,0 +1,5 @@
+export const action = "action"
+export const GET_USER = "GET_USER"
+export const DELETE_USER = "DELETE_USER"
+export const SETLOADING = "SETLOADING"
+export const ADMIN_ERROR = "ADMIN_ERROR"

@@ -1,0 +1,5 @@
+export const action = "action"
+export const GET_DOCTORS = "GET_DOCTORS"
+export const SETLOADING = "SETLOADING"
+export const PATIENT_ERROR = "PATIENT_ERROR"
+export const EDIT_USER = "EDIT_USER"

@@ -1,0 +1,33 @@
+.DoctorsContainer{ 
+      
+    background-color: rgba(255,255,255,0);
+     background-image: url(https://www.merkezprime.com.tr/images/uploads/foto_upload_1175887618.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     padding-top: 5%;
+     padding-right: 5%;
+     padding-bottom: 5%;
+     padding-left: 5%;
+     margin-bottom: 0px;
+     margin-top: 0px;
+     border-width: 0px 0px 0px 0px;
+     border-color: #e2e2e2;
+     border-style: solid;
+     background-size: cover;
+ }
+
+ .DcardContainer{
+
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25),
+      10px 10px 10px rgba(179, 182, 28, 0.22);
+    background: rgb(243, 128, 247);
+    border-radius: 10px;
+    display: inline-block;
+    height: 400px;
+    margin: 15px 45px 15px 45px;
+    text-align: center;
+    font-size: calc(8px + 2vmin);
+    width: 380px;
+    padding: 25px 25px 25px 25px;
+
+}
