@@ -6,7 +6,7 @@ import Register from "./auth/Register";
 import Login from "./auth/Login";
 import { Link } from "react-router-dom";
 import { logout} from "../js/action/authAction";
-import { getuser } from "../js/action/adminAction";
+
 
 
 

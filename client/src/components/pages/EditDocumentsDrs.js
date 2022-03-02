@@ -20,8 +20,7 @@ import {
     
     const EditDocumentsDrsModal = ({documentsDrs}) => {
       const [modal, setModal] = useState(false);
-      console.log ("documentsDrs" , documentsDrs)
-      // const drs = useSelector(state =>state.documentsDrsReducer.drs.documentsDrs);
+   
         const history = useHistory();
         const dispatch = useDispatch();
         const [formData, setFormData] = useState({
@@ -32,7 +31,7 @@ import {
           keywords: documentsDrs.keywords,
           document: documentsDrs.document,
         });
-        const [selectedOption , setSelectedOption ] = useState(null)
+        
     
        
 
@@ -43,7 +42,7 @@ import {
    const handleConfim = () => {
     dispatch(editdocumentsdrs(documentsDrs._id, formData));
     history.push("/dashboard");
-    // console.log("formdata" , formData)
+    
   };
 
   const toggle = () => setModal(!modal);

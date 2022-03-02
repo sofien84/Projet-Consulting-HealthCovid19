@@ -21,11 +21,11 @@ import {
    
       const EditDoctorsModal = ({user}) => {
         const [modal, setModal] = useState(false);
-        console.log ("user" , user)
+       
         
           const history = useHistory();
           const dispatch = useDispatch();
-          // const user = useSelector(state =>state.authReducer.user);
+        
           const [formData, setFormData] = useState({
             name: user.name,
             lastname:user.lastname,

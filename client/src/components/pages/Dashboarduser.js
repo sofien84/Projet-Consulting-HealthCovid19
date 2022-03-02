@@ -1,4 +1,4 @@
-import React, { useEffect , useState } from "react";
+import React, { useEffect  } from "react";
 import { getdoctors } from '../../js/action/patientAction'
 
 import CardDashboarduser from "./CardDashboarduser";
@@ -10,14 +10,13 @@ import EditPatient from "./EditPatient";
 
     const Dashboarduser  = () => {
         const users= useSelector(state =>state.patientReducer.user);
-        const msg = useSelector(state =>state.messageReducer.msg);
+        
          const user = useSelector(state =>state.authReducer.user);
-console.log("user", user)
-        const [message , setMessage]= useState([msg])
+
       
         const dispatch = useDispatch()
      const getDoctors = () => dispatch(getdoctors())
-       console.log("msg" , msg)
+     
       
   useEffect(() => {
     getDoctors()
@@ -49,16 +48,7 @@ console.log("user", user)
              {users.filter((el)=>el.role === "Doctor" ).map((el) => (
         <CardDashboarduser el={el} /> ))}
 
-          {/* {user.filter((el)=>el.role === "Doctor" ).map((el) => (
-        <CardDashboarduser el={el} /> ))}*/}
-
-        
-          {/* {user.map((el) => (
-        <CardDashboarduser el={el} /> ))}*/}
-          
-        
-        {/* {message.map((el) => (
-            <CardDashboarduser el={el} /> ))}*/}
+         
 
             
       </div>

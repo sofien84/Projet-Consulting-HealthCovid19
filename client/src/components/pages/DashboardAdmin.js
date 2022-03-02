@@ -12,7 +12,7 @@ import './DashboardAdmin.css';
 const DashboardAdmin  = () => {
 
   const state = useSelector(state =>state.adminReducer.user);
-  console.log("st tz" , state)
+
 
      const dispatch = useDispatch()
      const getUser = () => dispatch(getuser())

@@ -39,7 +39,7 @@ import {
   const handleConfim = () => {
     dispatch(postdocumentsdrs(formData));
     history.push("/dashboard");
-    // console.log("formdata" , formData)
+  
   };
 
   const toggle = () => setModal(!modal);

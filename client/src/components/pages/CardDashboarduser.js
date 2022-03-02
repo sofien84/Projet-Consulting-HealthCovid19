@@ -1,5 +1,5 @@
 import React from 'react'
-import { getmessage, postmessage } from "../../js/action/messageAction";
+
 import { useDispatch} from 'react-redux'
 import { edituser } from "../../js/action/patientAction";
 
@@ -11,11 +11,8 @@ import './CardDashboarduser.css'
 
 const CardDashboarduser  = ({ el }) => {
         const dispatch = useDispatch() ;
-         const get_message =()=>{
-         dispatch(getmessage(el._id))};
-         const post_message =()=>{
-            dispatch(postmessage(el._id))};
-        const edit_user =()=>{
+         
+        const Edituser =()=>{
               dispatch(edituser(el._id, {}))};
             
 
@@ -30,10 +27,7 @@ const CardDashboarduser  = ({ el }) => {
         <p> phone:{el.phone}</p>
         <p> role: {el.role}</p>
        
-        {/* <button onClick={get_message}> Check Message</button>*/}
-         {/* <button onClick={post_message}> Send Message</button></div>*/}
-         {/* <button onClick={edit_user}> edit </button> */}
-         
+      
        
            <Healthmessage />
       
