@@ -1,12 +1,12 @@
 
 import React from 'react'
-import { editdocumentsdrs , Delete } from "../../js/action/documentsDrsAction";
+import {  Delete } from "../../js/action/documentsDrsAction";
 
 import { useDispatch, useSelector} from 'react-redux';
 import EditDocumentsDrs from "./EditDocumentsDrs";
 // import { edituser } from "../../js/action/patientAction";
-import { edituser } from "../../js/action/authAction";
-import { getdocumentsdrs } from "../../js/action/documentsDrsAction";
+
+
 
 
 import './CardDashboardDrs.css'
@@ -19,14 +19,7 @@ const CardDashboardDrs = ({el}) => {
   
 
     const dispatch = useDispatch()
-    const getDocumentsdrs  = () => dispatch(getdocumentsdrs ());
-    const Editdocuments =()=>{
-     dispatch(editdocumentsdrs (el._id, {}))}
-
    
-
-     const edit_user =()=>{
-        dispatch(edituser(el._id, {}))};
      const deletedocuments =()=>{
           dispatch(Delete(el._id))}
 

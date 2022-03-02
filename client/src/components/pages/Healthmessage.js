@@ -29,7 +29,7 @@ import {
           age: "",
           Healthmessage: "",
         });
-        const [selectedOption , setSelectedOption ] = useState(null)
+        
     
     const handleFormChange = (e) =>{
     setFormData({ ...formData, [e.target.name]: e.target.value });

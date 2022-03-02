@@ -18,7 +18,7 @@ const DashboardDrs = () => {
 
 
     
-    const [document , setdocument]= useState(drs)
+    const [document ]= useState(drs)
     
     const dispatch = useDispatch()
     

@@ -4,7 +4,7 @@ import { useDispatch} from 'react-redux'
 import { edituser } from "../../js/action/patientAction";
 
 
-import Healthmessage from "./Healthmessage"
+
 
 import './CardDashboarduser.css'
 
@@ -29,7 +29,7 @@ const CardDashboarduser  = ({ el }) => {
        
       
        
-           <Healthmessage />
+          
       
         </div>
        
