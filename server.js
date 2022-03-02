@@ -14,12 +14,18 @@ app.use('/api/user', userrouter)
 app.use('/api/message', messagerouter)
 app.use('/api/documentsDrs', documentsDrsrouter)
 connectDB()
+
+
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
   app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
   });
 }
+
+
+
+
 app.listen (port, (err) => {
     (err) ? console.log(err): console.log(`server is running on port ${port}`)
 })

@@ -14,7 +14,7 @@ function Footer() {
   </section>
   <div className="text-center p-4" style={{backgroundColor:"Tomato" ,color:"SlateBlue" }}>
      © 2022 Copyright :
-    <a className="text-reset fw-bold" href="#">  <Link className="text-reset fw-bold" to="/"> HealthCOVID-19 App </Link></a>
+ <Link className="text-reset fw-bold" to="/"> HealthCOVID-19 App </Link>
   </div>
 </footer>
   )}
