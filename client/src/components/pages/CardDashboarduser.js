@@ -12,7 +12,7 @@ import './CardDashboarduser.css'
 const CardDashboarduser  = ({ el }) => {
         const dispatch = useDispatch() ;
          
-        const Edituser =()=>{
+        const edit_user =()=>{
               dispatch(edituser(el._id, {}))};
             
 

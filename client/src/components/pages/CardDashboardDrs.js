@@ -4,7 +4,7 @@ import {  Delete } from "../../js/action/documentsDrsAction";
 
 import { useDispatch, useSelector} from 'react-redux';
 import EditDocumentsDrs from "./EditDocumentsDrs";
-// import { edituser } from "../../js/action/patientAction";
+
 
 
 

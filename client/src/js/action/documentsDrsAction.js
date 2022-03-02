@@ -34,7 +34,7 @@ export const getdocumentsdrs = () => async(dispatch) =>{
 //  postdocumentsdrs
 export const postdocumentsdrs = (data) => async(dispatch) =>{
     dispatch(setloading())
-console.log("adddoctor",data)
+
     try {
         const option = {
             headers :{
@@ -77,7 +77,7 @@ export const setloading = () => (dispatch) => {
 //edit
 export const editdocumentsdrs = (iddocumentsDrs , newdocumentsDrs) => async(dispatch) =>{
     dispatch(setloading())
-    console.log("document",document)
+    
     try {
         const option = {
             headers :{
